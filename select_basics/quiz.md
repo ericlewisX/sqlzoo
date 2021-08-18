@@ -8,6 +8,7 @@
 |    Andorra     |     Europe       |      468       |      64000       |                  |
 |      ...       |      ...         |      ...       |      ...         |      ...         |
 
+<br></br>
 1. Select the code which produces this table :
 
 |    __name__    |  __population__  |
@@ -18,7 +19,36 @@
 
 `SELECT` name, population \
 `FROM` world \
-`WHERE` population `BETWEEN` 1000000 AND 1250000
+`WHERE` population `BETWEEN` 1000000 `AND` 1250000
+
+<br></br>
+2. Pick the result you would obtain from this code:
+
+```
+SELECT name, population
+FROM world
+WHERE name LIKE 'Al%'
+```
+
+<table>
+  <tr><th colspan=2>Table E</th></tr>
+  <tr><td>Albania</td><td>3200000</td></tr>
+  <tr><td>Algeria</td><td>32900000</td></tr>
+</table>
+
+<br></br>
+3. 
 
 
-2.
+<br></br>
+4. 
+
+<br></br>
+5. 
+
+
+<br></br>
+6. 
+
+<br></br>
+7. 
