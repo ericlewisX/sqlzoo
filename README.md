@@ -1,3 +1,4 @@
 # sqlzoo
 This repo is for practicing using sqlzoo.
-SQL
+
+The solutions to the quizzes are located in here.
