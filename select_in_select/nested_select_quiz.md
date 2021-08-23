@@ -152,8 +152,8 @@ WHERE population > ALL
 ```
 <table>
   <tr><th colspan=2>Table B</th></tr>
-  <tr><td>Bangladesh</td><td>1</td></tr>
-  <tr><td>India</td><td>1</td></tr>
-  <tr><td>Pakistan</td><td>2</td></tr>
+  <tr><td>Bangladesh</td></tr>
+  <tr><td>India</td></tr>
+  <tr><td>Pakistan</td></tr>
 </table>
 
