@@ -47,14 +47,24 @@ SUM(populatio..
 
 <br></br>
 
-2. Select the code that shows the countries belonging to regions with all populations over 50000.
+2. List all the continents - just once each.
 
 ```
-SELECT name,region,population 
-FROM bbc x 
-WHERE 50000 < ALL (SELECT population 
-                    FROM bbc y 
-                    WHERE x.region=y.region AND y.population>0)
+SELECT DISTINCT continent
+FROM world
+```
+
+```
+Correct answer
+continent
+Africa
+Asia
+Caribbean
+Eurasia
+Europe
+North America
+Oceania
+South America
 ```
 
 <!-- <table>
@@ -65,14 +75,19 @@ WHERE 50000 < ALL (SELECT population
 
 <br></br>
 
-3. Select the code that shows the countries with a less than a third of the population of the countries around it. 
+3. Give the total GDP of Africa 
 
 ```
-SELECT name, region 
-FROM bbc x
-WHERE population < ALL (SELECT population/3 
-                         FROM bbc y 
-                         WHERE y.region = x.region AND y.name != x.name)
+SELECT SUM(gdp)
+FROM world
+WHERE continent = 'Africa'
+```
+
+```
+Correct answer
+SUM(gdp)
+1811788000000
+
 ```
 
 <br></br>
