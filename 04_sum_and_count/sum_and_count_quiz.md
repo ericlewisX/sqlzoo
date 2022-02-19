@@ -25,7 +25,9 @@ This tutorial is about aggregate functions such as COUNT, SUM and AVG. An aggreg
 
 <br></br>
 
-1. Select the code that shows the name, region and population of the smallest country in each region. 
+1. Show the total population of the world.
+
+`world(name, continent, area, population, gdp)`
 
 <!-- |    __name__    |  __population__  |
 |   :--------:   | :--------------: |
@@ -34,11 +36,13 @@ This tutorial is about aggregate functions such as COUNT, SUM and AVG. An aggreg
 |  Timor-Leste   |    1066409       |  -->
 
 ```
-SELECT region, name, population 
-FROM bbc x 
-WHERE population <= ALL (SELECT population 
-                          FROM bbc y 
-                          WHERE y.region=x.region AND population>0)
+SELECT SUM(population)
+FROM world
+```
+```
+Correct answer
+SUM(populatio..
+7118632738
 ```
 
 <br></br>
