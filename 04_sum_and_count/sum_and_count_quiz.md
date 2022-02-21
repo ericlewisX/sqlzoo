@@ -52,7 +52,7 @@ SUM(populatio..
 ```
 SELECT DISTINCT continent
 FROM world
-```
+```   
  
 ```
 Correct answer
