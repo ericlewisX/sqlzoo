@@ -53,7 +53,7 @@ SUM(populatio..
 SELECT DISTINCT continent
 FROM world
 ```
-
+ 
 ```
 Correct answer
 continent
@@ -146,7 +146,7 @@ WHERE gdp > (SELECT MAX(gdp)
 </table> -->
 
 
-<br></br>
+<br></br>   
 
 6. Select the code that shows the countries with population smaller than Russia but bigger than Denmark.
 
