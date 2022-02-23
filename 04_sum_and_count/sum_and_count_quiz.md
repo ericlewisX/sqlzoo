@@ -44,7 +44,7 @@ Correct answer
 SUM(populatio..
 7118632738
 ```
-
+    
 <br></br>
 
 2. List all the continents - just once each.
