@@ -119,7 +119,7 @@ SELECT name FROM bbc
 |    Italy     |    5       | 
 |   Malta    |    5       | 
 |  Spain   |    5       |  -->
-
+  
 
 <br></br>
 
