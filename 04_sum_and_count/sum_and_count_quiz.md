@@ -134,7 +134,7 @@ SELECT name FROM bbc
 |      ...       |      ...         |      ...       |      ...         |      ...         |
 
 Pick the result you would obtain from this code:  -->
-
+ 
 ```
 SELECT name FROM bbc
 WHERE gdp > (SELECT MAX(gdp) 
