@@ -8,7 +8,7 @@
 |   1960  |   Medicine    |      Peter Medawar       |
 |   1960  |   Physics     |      	Donald A. Glaser    |
 |   1960  |   Peace       |     Albert Lutuli    | 
-|   ...   |    ...        |      ...       |  -->
+|   ...   |    ...        |      ...       |  --> 
   
 ### World Country Profile: Aggregate functions  
 
