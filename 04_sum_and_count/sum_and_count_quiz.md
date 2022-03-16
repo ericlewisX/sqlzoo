@@ -92,7 +92,7 @@ SUM(gdp)
 
 <br></br>
 
-4. Select the result that would be obtained from the following code:  
+<!-- 4. Select the result that would be obtained from the following code:  
 
 ```
 SELECT name FROM bbc
@@ -178,3 +178,4 @@ WHERE population > ALL
   <tr><td>India</td></tr>
   <tr><td>Pakistan</td></tr>
 </table>
+ -->
